@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace+SC&family=Noto+Sans&family=Nunito+Sans:wght@200;300&family=Open+Sans:wght@400;500&family=PT+Sans+Narrow:wght@700&family=Phudu:wght@300;500&family=Poppins:ital,wght@0,600;0,800;1,800&family=Roboto+Mono&family=Roboto+Slab:wght@500&family=Source+Code+Pro:wght@300&family=Source+Serif+Pro:wght@900&display=swap');
+
+.navbar{
+    width: 100%;
+    height: 65px;
+background-color: black;
+position: fixed;
+top: 0;
+width: 100%;
+
+
+}
+ul li{
+   
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    /* margin-left: 50px !important; */
+    font-family: 'Nunito Sans';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hdGh8ZW58MHx8MHx8&w=1000&q=80');
+   background-size: cover;
+ 
+}
+.name{
+    padding-top: 100px;
+    margin-left: 100px;
+    font-size: 54px;
+}
+.software{
+    margin-left: 100px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.project-heading{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+}
+.project-nav{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+}
+.movie-app{
+    padding-top: 30px;
+    margin-left: 100px;
+}
+hr{
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 12%;
+    margin-top: 30px;
+    color: #E5E5E5;
+    height: 2px;
+}
+.movie-details{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+span{
+    padding-top: 30px;
+}
+.project-2{
+    padding-top: 30px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+
+}
+.article{
+    width: 100%;
+    height: 300px;
+    
+    margin-top: 500px;
+}
+.article-heading{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
+}
+.article-1{
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+}
+.how{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.connect{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    height: 100px;
+   background-color: white;
+}
+.connect-nav{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    padding: 10px;
+    background-color: black;
+}
+.social-icon{
+    width: 30%;
+    height: 100px;
+    margin: auto;
+   
+}
+.icon-ul{
+    /* padding: 10px; */
+    margin-top: 10px;
+    float: left;
+}
+.icon-li{
+    padding: 5px;
+    font-size: 30px;
+}
+@media (max-width:768px) {
+    .hero-section{
+       width: 100%;
+      height: 300px;
+
+    }
+    .project-1{
+        width: 100%;
+      
+    }
+    .movie-app{
+        padding-top: 30px;
+        margin-left: 10px;
+    }
+    .movie-details{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    hr{
+        width: 100%;
+       
+        margin-top: 30px;
+        color: #E5E5E5;
+        height: 2px;
+    }
+    .name{
+        padding-top: 100px;
+        margin-left: 10px;
+        font-size: 54px;
+    }
+    .software{
+        margin-left: 10px;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .navbar{
+        background-color: transparent;
+        position: fixed;
+      
+    }
+    ul li{
+        color: black;
+        margin: 20px;
+        
+        font-weight: 600;
+        padding-left: 5px;
+       
+    }
+    .connect{
+        width: 100%;
+    }
+    .social-icon{
+        width: 80%;
+        margin: 16%;
+
+    }
+    .project-2{
+        width: 100%;
+    }
+    .movie-app{
+        width: 100%;
+        
+    }
+    .movie-app-details{
+        width: 100%;
+    }
+    .movie-details{
+        width: 100%;
+        height:110px;
+    }
+    
+    
+}
